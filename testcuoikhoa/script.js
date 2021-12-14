@@ -39,25 +39,7 @@ console.log("Team 1 tổng cân nặng là "+team2+" kg")
 
 
 /* B :Code Challenge (60’)*/
-var canvas = document.getElementById('canvas_picker').getContext('2d');
-var img = new Image();
-img.src = 'image.jpg';
-$(img).load(function(){
-  canvas.drawImage(img,0,0);
-});
-$('#canvas_picker').click(function(event){
-    var x = event.pageX - this.offsetLeft;
-    var y = event.pageY - this.offsetTop;
-    var imgData = canvas.getImageData(x, y, 1, 1).data;
-var R = imgData[0];
-var G = imgData[1];
-var B = imgData[2];
-var rgb = R + ',' + G + ',' + B;
-  $('#rgb input').val(rgb);
-});
-function rgbToHex(R,G,B) {return toHex(R)+toHex(G)+toHex(B)}
-function toHex(n) {
-  n = parseInt(n,10);
-  if (isNaN(n)) return "00";
-  n = Math.max(0,Math.min(n,255));return "0123456789ABCDEF".charAt((n-n%16)/16) + "0123456789ABCDEF".charAt(n%16);
-}
+function myFunction() {
+    const color = document.getElementById("bodycolor").value;
+      document.body.style.backgroundColor = color;
+  }
