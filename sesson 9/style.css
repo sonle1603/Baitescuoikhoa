@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-image: url('./img/banner3.png');
+    /* Full height */
+    height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 59px 375px;
+}
+
+.hero-container>.hero-tag {
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.hero-container>.hero-title {
+    width: 560px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.hero-container>.hero-description {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+}

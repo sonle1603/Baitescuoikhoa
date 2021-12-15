@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 184px;
+    margin-right: 184px;
+}
+
+h1 {
+    color: red;
+}
+
+li:nth-child(4) {
+    color: red;
+}
+
+#Header {
+    color: purple;
+}
+
+.main-content {
+    font-size: 120px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    object-fit: cover;
+    height: 48px;
+    width: auto;
+}
+
+.header__menu {
+    width: 327px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu>div {
+    color: #19191B;
+}
+
+.header__button {
+    /* padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 56px;
+    padding-left: 56px; */
+    padding: 19px 56px;
+    background: #FF7143;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: 0;
+    font-size: 17px;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+.main-content__hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__left {
+    width: 530px;
+}
+
+.hero__left>.slogan {
+    color: #19191B;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: -2.50105px;
+    line-height: 77px;
+}
+
+.hero__left>.description {
+    margin-top: 30px;
+    color: #696871;
+    font-size: 20px;
+}
+
+.hero__left>.action {
+    margin-top: 50px;
+    display: flex;
+}
+
+.hero__left>.action>button {
+    font-size: 17px;
+    padding: 19px 60px;
+    background: #5454D4;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    color: white;
+    margin-right: 40px;
+}
+
+.hero__left>.action>img {
+    object-fit: cover;
+    height: 60px;
+    width: auto;
+}
+
+.hero__right {
+    height: 800px;
+    object-fit: cover;
+    width: auto;
+}
+
+.main-content__contribute {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content__contribute>.contribute__logo-1 {
+    object-fit: cover;
+    height: 30px;
+    width: auto;
+}
+
+.main-content__contribute>.contribute__logo-2 {
+    object-fit: cover;
+    height: 30px;
+    width: auto;
+}
+
+.main-content__contribute>.contribute__logo-3 {
+    object-fit: cover;
+    height: 50px;
+    width: auto;
+}
+
+.main-content__contribute>.contribute__logo-4 {
+    object-fit: cover;
+    height: 30px;
+    width: auto;
+}
+
+.main-content__contribute>.contribute__logo-5 {
+    object-fit: cover;
+    height: 30px;
+    width: auto;
+}
